@@ -20,3 +20,7 @@ This takes the variable `'acd_conflict_id'` from the dataframe `df`, which is
 the new UCDP conflict ID (as indicated by `'new_id'` and `conflict_id`),
 and translates to the old UCDP conflict ID (due to the input `old_id`). The
 old id is saved as a new vector `old_ids`.
+
+## R:
+A similar package is being developed for python. You can see it in its current
+state here: [UCDP_ID_translation_R](https://github.com/newton-c/UCDP_ID_translation_R)
