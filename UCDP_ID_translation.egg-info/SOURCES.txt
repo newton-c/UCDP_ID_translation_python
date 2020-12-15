@@ -1,0 +1,8 @@
+README.md
+setup.py
+UCDP_ID_translation/__init__.py
+UCDP_ID_translation/ucdp.py
+UCDP_ID_translation.egg-info/PKG-INFO
+UCDP_ID_translation.egg-info/SOURCES.txt
+UCDP_ID_translation.egg-info/dependency_links.txt
+UCDP_ID_translation.egg-info/top_level.txt

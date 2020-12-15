@@ -5,14 +5,15 @@ Everything else can be changed to test the functions and try to break this
 code.
 '''
 
-exec(open('ucdp_ids.py').read())
+# exec(open('ucdp_ids.py').read())
 
 import pandas as pd
+from UCDP_ID_translation import ucdp
 
 df = pd.read_csv(r'data/ucdp-prio-acd-201.csv')
 
-old_ids = ucdp_ids(df['conflict_id'], 'new_id', 'old_id', 'conflict_id')
+old_ids = ucdp.ucdp_ids(df['conflict_id'], 'new_id', 'old_id', 'conflict_id')
 print(old_ids[:25])
 
-new_ids = ucdp_ids(old_ids, 'old_id', 'new_id', 'conflict_id')
+new_ids = ucdp.ucdp_ids(old_ids, 'old_id', 'new_id', 'conflict_id')
 print(new_ids[:25])
